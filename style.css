@@ -1,0 +1,67 @@
+/* TODO: design your profile with CSS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.0.10/css/all.css');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: aliceblue;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: #fd3e3e;
+}
+
+h2 {
+  color: crimson;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: crimson;
+}
+
+  a:hover {
+    color: #fa6481;
+  }
+
+.btn-red {
+  padding: 8px 24px;
+  color: white;
+  background-color: crimson;
+  border-radius: 4px;
+}
+  .btn-red:hover {
+    color: white;
+    background-color: #fa6481;
+  }
+
+.card-white {
+  background: white;                         /* White background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+  width: 600px;        /* Set the width */
+  margin: 32px auto;      /* Set automatic margins on right/left */
+  text-align: center;
+}
+
+#avatar {
+  width: 160px;
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.social-icon {
+  display: inline-block;
+  margin: 8px;
+  font-size: 32px;
+}
